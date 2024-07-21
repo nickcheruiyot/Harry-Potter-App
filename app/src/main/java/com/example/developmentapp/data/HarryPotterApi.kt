@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface HarryPotterApi {
     @GET("characters")
-    suspend fun getCharacters():HarryPotterResponseDto
+   suspend fun getCharacters():HarryPotterResponseDto
 }
